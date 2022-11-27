@@ -1,0 +1,58 @@
+.container {
+    display: flex;
+
+    }
+.box1
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items : center;
+   background-color: white;
+   height : 60vh;
+   width : 30vw;
+   border : solid;
+   padding : 15px;
+   font-family: verdana;
+   border-radius : 12px;
+   margin: 10px;
+
+
+}
+.req{
+    margin-top : 10px;
+    
+}
+.inputs {
+        width: 25vw;
+        align-items: center;
+        margin-top: 10px;
+        background-color: rgb(231, 239, 239);
+        height : 4vh;
+        display: block;
+
+        }
+.btn{
+    height : 4vh;
+    margin-top:10px;
+    background-color: #218380;
+    color : white;
+ 
+  width : 20vw;
+
+}
+#inside{
+    margin-left : 25px;
+}
+
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: 0;
+        font-family: "Roboto", sans-serif;
+        }
+
+#my-date-picker-range {
+    margin-top: 10px;
+    margin-right: 25px;
+}
